@@ -10,7 +10,7 @@
  * Se cambia el nombre del modulo principal, solo para mostrar
  * la creación y actualizción de una rama en GIT
  **************************************************************/
-angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
+angular.module('nombreCambiado', ['ionic', 'starter.controllers', 'starter.services'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
