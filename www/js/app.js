@@ -5,6 +5,11 @@
 // the 2nd parameter is an array of 'requires'
 // 'starter.services' is found in services.js
 // 'starter.controllers' is found in controllers.js
+
+/***************************************************************
+ * Se cambia el nombre del modulo principal, solo para mostrar
+ * la creación y actualizción de una rama en GIT
+ **************************************************************/
 angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 
 .run(function($ionicPlatform) {
